@@ -1,0 +1,2 @@
+require(game.ReplicatedStorage.ClientModules.EntityModules.Void).stuff(require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game), workspace.CurrentRooms[game.Players.LocalPlayer:GetAttribute("CurrentRoom")])
+        task.wait(1) game.Players.LocalPlayer.Character.Humanoid.Health = game.Players.LocalPlayer.Character.Humanoid.Health - math.random(10, 40)
